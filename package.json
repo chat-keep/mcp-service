@@ -1,0 +1,21 @@
+{
+  "name": "mcp-service",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:chat-keep/mcp-service.git",
+  "author": "raphaeltx <teixeira.e.a.raphael@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@grpc/grpc-js": "^1.13.3",
+    "@grpc/proto-loader": "^0.7.15",
+    "@types/express": "^5.0.1",
+    "express": "^5.1.0",
+    "winston": "^3.17.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.15.3",
+    "@types/winston": "^2.4.4",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.3"
+  }
+}
